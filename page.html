@@ -16,7 +16,7 @@
             <div class="row justify-content-center">
                 <div class="col-10">
                     <div class="card">
-                        <div class="card-header text-center text-bg-success fw-bold">
+                        <div class="card-header text-center text-bg-warning fw-bold">
                             {{ title }}
                         </div>
                         <div class="card-body">
@@ -55,7 +55,7 @@
         const App = {
             data() {
                 return {
-                    title: '串接資料練習(from 000webhost api)',
+                    title: '範例二-串接資料練習(from 000webhost api)',
                     mydata: []
                 }
             },
@@ -78,22 +78,6 @@
             },
         };
         Vue.createApp(App).mount('#app');
-        // $(function () {
-        //     const url = 'https://webdemorichie.000webhostapp.com/web202211/mem_R_api.php';
-        //     axios.get(url)
-        //         .then(function (response) {
-        //             // handle success
-        //             console.log(response);
-        //         })
-        //         .catch(function (error) {
-        //             // handle error
-        //             console.log(error);
-        //         })
-        //         .finally(function () {
-        //             // always executed
-        //         });
-        // });
-
     </script>
 </body>
 
